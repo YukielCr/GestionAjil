@@ -157,7 +157,7 @@ body {
 /* Tabla Refinada */
 .table-wrapper {
     width: 100%;
-    border: 2px solid #00a8e8; /* Borde azul que marcaste en tu diseño (opcional, quítalo si solo era guía) */
+    /*border: 2px solid #00a8e8; /* Borde azul que marcaste en tu diseño (opcional, quítalo si solo era guía) */
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 20px;
