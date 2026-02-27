@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Alumnos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="profile-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <ul class="nav-links">
+                <li class="active" onclick="showTab('home')"><i class="fas fa-home"></i><span>Pagina Principal</span></li>
+                <li onclick="showTab('alumnos')"><i class="fas fa-graduation-cap"></i><span>Alumnos</span></li>
+                <li onclick="showTab('asistencias')"><i class="fas fa-calendar-check"></i><span>Asistencias</span></li>
+                <li onclick="showTab('clases')"><i class="fas fa-book"></i><span>Clases</span></li>
+                <li onclick="showTab('finanzas')"><i class="fas fa-piggy-bank"></i><span>Finanzas</span></li>
+                <li onclick="showTab('reportes')"><i class="fas fa-chart-bar"></i><span>Reportes</span></li>
+            </ul>
+        </nav>
+
+    </div>
+</body>
+</html>
